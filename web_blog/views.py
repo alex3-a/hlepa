@@ -4,7 +4,7 @@ import json
 from django.shortcuts import render,redirect
 import database
 
-url = 'http://localhost:8080/'
+url = 'https://hlepa.herokuapp.com'
 
 @csrf_exempt
 def index(request):
